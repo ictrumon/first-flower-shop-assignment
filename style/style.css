@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-    /* Header Section Start */ 
+/* Header Section Start */ 
 header{
     height: 100vh;
     background: rgba(229, 84, 115, 0.10);
@@ -138,10 +138,11 @@ header{
 /* Hot Deal Section Start */ 
 .hot-deal-container{
     width: 100%;
-    height: 500px;
+    height: 450px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-top: 120px;display: flex;
+    margin-top: 120px;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -157,6 +158,7 @@ header{
     color: #272727;
     font-family: Lato;
     font-size: 18px;
+    margin-top: 20px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -219,13 +221,23 @@ header{
 /* Instagram Section End */
 
 /* Latest Deal Section Start */
-.latest-deal-container{
-    background-image: url('');
-    margin-top: 100px;
+.latese-section{
+    margin-top: 120px;
 }
 .latest-deal-box{
-    text-align: center;
+    background-image: url('../Rectangle\ 9.png');
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    height: 350px;
+    margin: auto;
     align-items: center;
+    text-align: center;
+}
+.latest-img{
+    width: 50%;
+    margin: auto;
 }
 .box-title{
     color: #272727;
@@ -233,6 +245,7 @@ header{
     font-family: Lato;
     font-size: 30px;
     font-weight: 800;
+    padding-top: 100px;
 }
 .box-description{
     color: #272727;
@@ -243,10 +256,12 @@ header{
 
 }
 .email-box{
+    width: 30%;
     border-radius: 8px;
     background: #FFF;
+    color: #FFFFFF;
     border: none;
-    padding: 10px;
+    padding: 15px;
 }
 .btn-box{
     border-radius: 8px;
@@ -291,9 +306,9 @@ header{
     margin: auto;
 }
 .shop{
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 .copyright-text{
     padding-top: 100px;
 }
-/* Footer Section Start */
+/* Footer Section End */
