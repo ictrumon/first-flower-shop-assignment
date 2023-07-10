@@ -1,8 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-/* Header Section Start */ 
 }
+    /* Header Section Start */ 
 header{
     height: 100vh;
     background: rgba(229, 84, 115, 0.10);
@@ -114,20 +114,17 @@ header{
 /* Feature Flower Section End */ 
 
 /* Support Section Start */ 
-.support-section{
-    width: 1100px;
+.support-container{
+    width: 1000px;
     height: 200px;
     margin: auto;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-
-}
-.support-container{
     display: flex;
     padding: 40px;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
 }
 .support-text{
     color: rgba(39, 39, 39, 0.80);
@@ -139,15 +136,12 @@ header{
 /* Support Section End */ 
 
 /* Hot Deal Section Start */ 
-.hot-deal-section{
+.hot-deal-container{
     width: 100%;
     height: 500px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-top: 120px;
-}
-.hot-deal-container{
-    display: flex;
+    margin-top: 120px;display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -224,14 +218,14 @@ header{
 }
 /* Instagram Section End */
 
+/* Latest Deal Section Start */
 .latest-deal-container{
-    background-color: #E55473;
-    background: ;
+    background-image: url('');
     margin-top: 100px;
 }
 .latest-deal-box{
-text-align: center;
-align-items: center;
+    text-align: center;
+    align-items: center;
 }
 .box-title{
     color: #272727;
@@ -265,6 +259,9 @@ align-items: center;
     font-weight: 700;
     margin-top: 20px;
 }
+/* Latest Deal Section End */
+
+/* Footer Section Start */
 .footer-section{
     margin-top: 120px;
     display: flex;
@@ -299,3 +296,4 @@ align-items: center;
 .copyright-text{
     padding-top: 100px;
 }
+/* Footer Section Start */
