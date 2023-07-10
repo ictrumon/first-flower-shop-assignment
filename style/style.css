@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+/* Header Section Start */ 
 }
 header{
     height: 100vh;
@@ -43,3 +44,54 @@ header{
     font-weight: 700;
     margin-top: 20px;
 }
+/* Header Section End */ 
+
+/* Feature Flower Section Start */ 
+.feature-heading{
+    color: #272727;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-description{
+    color: gray;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.feature-flower{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.flower-box-1{
+    width: 350px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower-box-2{
+    width: 350px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower-box-3{
+    width: 350px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.feature-img{
+    width: 310px;
+    height: 428px;
+    padding: 20px;
+}
+/* Feature Flower Section End */ 
